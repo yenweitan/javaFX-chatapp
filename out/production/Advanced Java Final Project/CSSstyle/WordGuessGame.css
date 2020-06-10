@@ -1,0 +1,31 @@
+.root {
+    -fx-background-image: url("../image/GameBackground.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 450 300;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+    -fx-font-size: 15px;
+
+}
+
+.errorMessage{
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+
+.correctMessage{
+    -fx-fill: green;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#F2A65A,#772F1A);
+    -fx-border-color: #212942;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#772F1A   , #F2A65A);
+}

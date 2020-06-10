@@ -1,0 +1,32 @@
+.text-area   {
+    -fx-font-size: 14px;
+    -fx-border-color: rgba(47,96,47,0.95);
+
+}
+
+.root{
+    -fx-background-image: url("../image/chatBackground3.png");
+    -fx-font-family: "Arial";
+}
+
+.label{
+    -fx-font-size: 15px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-text-fill: rgba(47, 96, 47, 0.97);
+    -fx-effect: dropshadow( gaussian , rgba(86, 180, 102, 0.6), 0,0,0,1 );
+}
+
+.button {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#233329, #63D471);
+    -fx-border-color: #2f602f;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#63D471, #233329);
+}
